@@ -17,7 +17,7 @@ Password <input type="password"name="aped" required><br>
 <?php
 if(isset($_POST['Sudmit'])) {
 	include_once("connectdb.php");
-	$sql = "SELECT * FROM admin WHERE a_username='{$_POST['auser']}'AND a_password='{$_POST['auser']}'LIMIT 1";
+	$sql = "SELECT * FROM admin WHERE a_username='{$_POST['auser']}'AND a_password='{$_POST['apwd']}'LIMIT 1";
 	$rs = mysqli_query($conn, $sql);
 	$num = mysqli_num_rows($rs);
 	
@@ -26,7 +26,7 @@ if(isset($_POST['Sudmit'])) {
 		$_SESSION['aid'] = $data['a_id'];
 		$_SESSION['aname'] = $data['a_name'];
 		echo"<script>";
-		echo"window.iocation='index2.php';";
+		echo"window.location='index2.php';";
 		echo "</script>";
 	} else {
 		echo "<script>" ;
