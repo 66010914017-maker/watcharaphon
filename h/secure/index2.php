@@ -65,7 +65,7 @@
         </div>
 
         <div class="col-6 col-md-3">
-            <a href="order.php" class="card card-menu h-100 text-center p-4">
+            <a href="orders.php" class="card card-menu h-100 text-center p-4">
                 <div class="icon-box mb-3"><i class="bi bi-cart-check"></i></div>
                 <h5>จัดการออเดอร์</h5>
             </a>
