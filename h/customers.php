@@ -12,7 +12,7 @@
 
 <ul>
 	<a href="products.php"><il>จัดการสินค้า</il></a>
-    <a href="order.php"><il>จัดการออเดอร์</il></a>
+    <a href="orders.php"><il>จัดการออเดอร์</il></a>
     <a href="customers.php"><il>จัดการลูกค้า</il></a>
     <a href="logout.php"><il>ออกจากระบบ</il></a>
 </ul>

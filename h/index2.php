@@ -10,12 +10,12 @@
 <h1>หน้าหลักแอดมิน - วัชรพล </h1>
 <?php echo "แอดมิน: ". $_SESSION['aname'];?><br>
 
-<ul>
+<ui>
 	<a href="products.php"><il>จัดการสินค้า</il></a>
-    <a href="order.php"><il>จัดการออเดอร์</il></a>
+    <a href="orders.php"><il>จัดการออเดอร์</il></a>
     <a href="customers.php"><il>จัดการลูกค้า</il></a>
     <a href="logout.php"><il>ออกจากระบบ</il></a>
-</ul>
+</ui>
 <body>
 </body>
 </html>
