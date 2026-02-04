@@ -21,7 +21,18 @@ if(isset($_POST['Sudmit'])) {
 	$rs = mysqli_query($conn, $sql);
 	$num = mysqli_num_rows($rs);
 	
-	echo $num ;
+	if ($num== 1 ) {
+		$data = mysqli_fetch_array($rs);
+		$_SESSION['aid'] = $data['a_id'];
+		$_SESSION['aname'] = $data['a_name'];
+		echo"<script>";
+		echo"window.iocation='index2.php';";
+		echo "</script>";
+	} else {
+		echo "<script>" ;
+		echo "alert('Username หรือ Password ไม่ถูกต้อง');";
+		echo "</script>";
+	}
 }
 ?>
 </body>
