@@ -8,9 +8,9 @@
 <body>
 
 
-<h1>งาน j 66010914017 วัชรพล เวชแพทย์ (หนึ่ง)</h1>
+<h1>งาน j วัชรพล เวชแพทย์ (หนึ่ง)</h1>
 <br>
-<img src="images/1.jpg"width="300">
+<img src="images/1.jpg" width=""400">
 
 
 </body>
