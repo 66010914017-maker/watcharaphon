@@ -11,6 +11,7 @@
 <h1>งาน k 66010914017 วัชรพล เวชแพทย์ (หนึ่ง)</h1>
 <br>
 <img src="images/1.jpg"width="300">
+<br>
 <button><input type="color"></button><br>
 <button><input type="color"></button><br>
 </form>
