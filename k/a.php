@@ -12,6 +12,10 @@
 <br>
 <img src="images/1.jpg"width="300">
 <br>
+<style>
+    button {
+        color: white;
+</style>
 <button type="submit" name="Submit">YES</button><br>
 <button type="submit" name="Submit">NO</button><br>
 </form>
