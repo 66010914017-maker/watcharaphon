@@ -13,5 +13,5 @@
 <img src="images/1.jpg"width="300">
 
 
-<body>
+</body>
 </html>
