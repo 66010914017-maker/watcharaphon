@@ -12,8 +12,8 @@
 <br>
 <img src="images/1.jpg"width="300">
 <br>
-<button><button type="button"></button><br>
-<button><button type="button"></button><br>
+<button type="submit" name="Submit">YES</button><br>
+<button type="submit" name="Submit">NO</button><br>
 </form>
 
 
